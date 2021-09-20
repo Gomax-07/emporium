@@ -76,4 +76,4 @@ def image_index(request):
     context = {
         'images': images
     }
-    return render(request, 'home.html', context)
+    return render(request, 'home.html', context
