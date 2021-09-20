@@ -29,3 +29,5 @@ class Image(models.Model):
 class Location(models.Model):
     location = models.CharField(max_length=150)
     image = models.ForeignKey(Image, on_delete=models.CASCADE)
+
+    
