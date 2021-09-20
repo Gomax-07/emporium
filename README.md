@@ -1,4 +1,4 @@
-# emporium# 
+# Emporium
 
 ## AUTHOR 
 Macharia John
