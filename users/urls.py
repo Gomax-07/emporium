@@ -5,5 +5,4 @@ urlpatterns = [
     path('dashboard/', dashboard, name='dashboard'),
     path('', register, name='register'),
     path('accounts/', include("django.contrib.auth.urls"))
-
 ]
