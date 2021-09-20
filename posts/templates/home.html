@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<h1>Image Upload</h1>
+<div class="row">
+{% for image in object_list %}
+    <div class="col-md-3">
+        <div class="card mb-1">
+            <img class="card-img-bottom"  src="{{ image.image.url }}" class="img-responsive"  height="300px" width="280px"/>
+
+                <h5 class="card-title">{{ image.title }}</h5>
+
+
+
+        </div>
+    </div>
+
+{% endfor %}
+</div>
+{% endblock %}

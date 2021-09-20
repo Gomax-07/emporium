@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<h1>{{  image.title }}</h1>
+<div class="row">
+    <div class="col-md-8">
+               <img class="card-img-top"  src="{{ image.image.url }}" class="img-responsive" style="width: 100%; float: left; max-height: content-box; height: 500px; " />
+    </div>
+    <div class="col-md-4">
+        <h5>Category:</h5>
+        <p>{{  image.title }}</p>
+        <br>
+        <h5>Location:</h5>
+        <p style='color:blue;'>{{  location.location }}</p>
+    </div>
+</div>
+{% endblock %}
+
